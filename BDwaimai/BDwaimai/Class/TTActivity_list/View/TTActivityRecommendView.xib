@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="cD5-aF-cGx" customClass="TTActivityRecommendView">
+            <rect key="frame" x="0.0" y="0.0" width="167" height="140"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6GP-c6-VA4">
+                    <rect key="frame" x="67.5" y="8" width="33" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wwe-3b-Eu4">
+                    <rect key="frame" x="0.0" y="24" width="167" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TuH-U4-0VK">
+                    <rect key="frame" x="0.0" y="48" width="167" height="92"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="92" id="rKg-EC-nLq"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="6GP-c6-VA4" firstAttribute="top" secondItem="cD5-aF-cGx" secondAttribute="top" constant="8" id="BPQ-yx-xGK"/>
+                <constraint firstItem="TuH-U4-0VK" firstAttribute="top" secondItem="Wwe-3b-Eu4" secondAttribute="bottom" constant="8" id="EzD-CN-ehD"/>
+                <constraint firstItem="Wwe-3b-Eu4" firstAttribute="top" secondItem="6GP-c6-VA4" secondAttribute="bottom" id="Ksk-8d-kwS"/>
+                <constraint firstAttribute="bottom" secondItem="TuH-U4-0VK" secondAttribute="bottom" id="OIY-d6-nwq"/>
+                <constraint firstAttribute="trailing" secondItem="TuH-U4-0VK" secondAttribute="trailing" id="RMV-PE-iMd"/>
+                <constraint firstItem="6GP-c6-VA4" firstAttribute="leading" secondItem="cD5-aF-cGx" secondAttribute="leading" id="YBk-SH-yGE"/>
+                <constraint firstItem="Wwe-3b-Eu4" firstAttribute="leading" secondItem="cD5-aF-cGx" secondAttribute="leading" id="gEy-Cd-Rxo"/>
+                <constraint firstItem="Wwe-3b-Eu4" firstAttribute="top" secondItem="6GP-c6-VA4" secondAttribute="bottom" id="iJa-cJ-MZA"/>
+                <constraint firstAttribute="trailing" secondItem="6GP-c6-VA4" secondAttribute="trailing" id="rDW-b3-NcN"/>
+                <constraint firstAttribute="trailing" secondItem="Wwe-3b-Eu4" secondAttribute="trailing" id="uWE-ns-ucO"/>
+                <constraint firstItem="TuH-U4-0VK" firstAttribute="leading" secondItem="cD5-aF-cGx" secondAttribute="leading" id="yIn-fQ-OQQ"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="centenLabel" destination="Wwe-3b-Eu4" id="1rM-HM-eY5"/>
+                <outlet property="headLabel" destination="6GP-c6-VA4" id="Nis-iW-fmQ"/>
+                <outlet property="mainImageView" destination="TuH-U4-0VK" id="7xD-tk-9Ey"/>
+            </connections>
+            <point key="canvasLocation" x="82.5" y="-367"/>
+        </view>
+    </objects>
+</document>
