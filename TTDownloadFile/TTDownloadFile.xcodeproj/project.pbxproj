@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B1028BA1EC71A8100E2A402 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1028B91EC71A8100E2A402 /* main.m */; };
+		2B1028BD1EC71A8100E2A402 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1028BC1EC71A8100E2A402 /* AppDelegate.m */; };
+		2B1028C01EC71A8100E2A402 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1028BF1EC71A8100E2A402 /* ViewController.m */; };
+		2B1028C31EC71A8100E2A402 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B1028C11EC71A8100E2A402 /* Main.storyboard */; };
+		2B1028C51EC71A8100E2A402 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B1028C41EC71A8100E2A402 /* Assets.xcassets */; };
+		2B1028C81EC71A8100E2A402 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B1028C61EC71A8100E2A402 /* LaunchScreen.storyboard */; };
+		2B1028D31EC71A8100E2A402 /* TTDownloadFileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1028D21EC71A8100E2A402 /* TTDownloadFileTests.m */; };
+		2B1028DE1EC71A8100E2A402 /* TTDownloadFileUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1028DD1EC71A8100E2A402 /* TTDownloadFileUITests.m */; };
+		2B1028EE1EC71AD200E2A402 /* NSString+path.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1028ED1EC71AD200E2A402 /* NSString+path.m */; };
+		2B1028F11EC71E0100E2A402 /* TTBookModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1028F01EC71E0100E2A402 /* TTBookModel.m */; };
+		2B1028F41EC71F4B00E2A402 /* TTDLBookCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1028F31EC71F4B00E2A402 /* TTDLBookCell.m */; };
+		2B1028F71EC725B300E2A402 /* TTDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1028F61EC725B300E2A402 /* TTDownloadManager.m */; };
+		2B1028FA1EC75AD300E2A402 /* liblzma.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B1028F91EC75AD300E2A402 /* liblzma.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B1028CF1EC71A8100E2A402 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B1028AD1EC71A8100E2A402 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B1028B41EC71A8100E2A402;
+			remoteInfo = TTDownloadFile;
+		};
+		2B1028DA1EC71A8100E2A402 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B1028AD1EC71A8100E2A402 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B1028B41EC71A8100E2A402;
+			remoteInfo = TTDownloadFile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B1028B51EC71A8100E2A402 /* TTDownloadFile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTDownloadFile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B1028B91EC71A8100E2A402 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B1028BB1EC71A8100E2A402 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2B1028BC1EC71A8100E2A402 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2B1028BE1EC71A8100E2A402 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2B1028BF1EC71A8100E2A402 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2B1028C21EC71A8100E2A402 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B1028C41EC71A8100E2A402 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B1028C71EC71A8100E2A402 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B1028C91EC71A8100E2A402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B1028CE1EC71A8100E2A402 /* TTDownloadFileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTDownloadFileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B1028D21EC71A8100E2A402 /* TTDownloadFileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTDownloadFileTests.m; sourceTree = "<group>"; };
+		2B1028D41EC71A8100E2A402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B1028D91EC71A8100E2A402 /* TTDownloadFileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTDownloadFileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B1028DD1EC71A8100E2A402 /* TTDownloadFileUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTDownloadFileUITests.m; sourceTree = "<group>"; };
+		2B1028DF1EC71A8100E2A402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B1028EC1EC71AD200E2A402 /* NSString+path.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+path.h"; sourceTree = "<group>"; };
+		2B1028ED1EC71AD200E2A402 /* NSString+path.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+path.m"; sourceTree = "<group>"; };
+		2B1028EF1EC71E0100E2A402 /* TTBookModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTBookModel.h; sourceTree = "<group>"; };
+		2B1028F01EC71E0100E2A402 /* TTBookModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTBookModel.m; sourceTree = "<group>"; };
+		2B1028F21EC71F4B00E2A402 /* TTDLBookCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTDLBookCell.h; sourceTree = "<group>"; };
+		2B1028F31EC71F4B00E2A402 /* TTDLBookCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTDLBookCell.m; sourceTree = "<group>"; };
+		2B1028F51EC725B300E2A402 /* TTDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTDownloadManager.h; sourceTree = "<group>"; };
+		2B1028F61EC725B300E2A402 /* TTDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTDownloadManager.m; sourceTree = "<group>"; };
+		2B1028F91EC75AD300E2A402 /* liblzma.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = liblzma.tbd; path = usr/lib/liblzma.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B1028B21EC71A8100E2A402 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B1028FA1EC75AD300E2A402 /* liblzma.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B1028CB1EC71A8100E2A402 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B1028D61EC71A8100E2A402 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B1028AC1EC71A8100E2A402 = {
+			isa = PBXGroup;
+			children = (
+				2B1028B71EC71A8100E2A402 /* TTDownloadFile */,
+				2B1028D11EC71A8100E2A402 /* TTDownloadFileTests */,
+				2B1028DC1EC71A8100E2A402 /* TTDownloadFileUITests */,
+				2B1028B61EC71A8100E2A402 /* Products */,
+				2B1028F81EC75AD300E2A402 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2B1028B61EC71A8100E2A402 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B1028B51EC71A8100E2A402 /* TTDownloadFile.app */,
+				2B1028CE1EC71A8100E2A402 /* TTDownloadFileTests.xctest */,
+				2B1028D91EC71A8100E2A402 /* TTDownloadFileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B1028B71EC71A8100E2A402 /* TTDownloadFile */ = {
+			isa = PBXGroup;
+			children = (
+				2B1028EB1EC71AD200E2A402 /* path */,
+				2B1028BB1EC71A8100E2A402 /* AppDelegate.h */,
+				2B1028BC1EC71A8100E2A402 /* AppDelegate.m */,
+				2B1028BE1EC71A8100E2A402 /* ViewController.h */,
+				2B1028BF1EC71A8100E2A402 /* ViewController.m */,
+				2B1028F51EC725B300E2A402 /* TTDownloadManager.h */,
+				2B1028F61EC725B300E2A402 /* TTDownloadManager.m */,
+				2B1028EF1EC71E0100E2A402 /* TTBookModel.h */,
+				2B1028F01EC71E0100E2A402 /* TTBookModel.m */,
+				2B1028F21EC71F4B00E2A402 /* TTDLBookCell.h */,
+				2B1028F31EC71F4B00E2A402 /* TTDLBookCell.m */,
+				2B1028C11EC71A8100E2A402 /* Main.storyboard */,
+				2B1028C41EC71A8100E2A402 /* Assets.xcassets */,
+				2B1028C61EC71A8100E2A402 /* LaunchScreen.storyboard */,
+				2B1028C91EC71A8100E2A402 /* Info.plist */,
+				2B1028B81EC71A8100E2A402 /* Supporting Files */,
+			);
+			path = TTDownloadFile;
+			sourceTree = "<group>";
+		};
+		2B1028B81EC71A8100E2A402 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B1028B91EC71A8100E2A402 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B1028D11EC71A8100E2A402 /* TTDownloadFileTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B1028D21EC71A8100E2A402 /* TTDownloadFileTests.m */,
+				2B1028D41EC71A8100E2A402 /* Info.plist */,
+			);
+			path = TTDownloadFileTests;
+			sourceTree = "<group>";
+		};
+		2B1028DC1EC71A8100E2A402 /* TTDownloadFileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B1028DD1EC71A8100E2A402 /* TTDownloadFileUITests.m */,
+				2B1028DF1EC71A8100E2A402 /* Info.plist */,
+			);
+			path = TTDownloadFileUITests;
+			sourceTree = "<group>";
+		};
+		2B1028EB1EC71AD200E2A402 /* path */ = {
+			isa = PBXGroup;
+			children = (
+				2B1028EC1EC71AD200E2A402 /* NSString+path.h */,
+				2B1028ED1EC71AD200E2A402 /* NSString+path.m */,
+			);
+			name = path;
+			path = ../../../../Common/path;
+			sourceTree = "<group>";
+		};
+		2B1028F81EC75AD300E2A402 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B1028F91EC75AD300E2A402 /* liblzma.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B1028B41EC71A8100E2A402 /* TTDownloadFile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B1028E21EC71A8100E2A402 /* Build configuration list for PBXNativeTarget "TTDownloadFile" */;
+			buildPhases = (
+				2B1028B11EC71A8100E2A402 /* Sources */,
+				2B1028B21EC71A8100E2A402 /* Frameworks */,
+				2B1028B31EC71A8100E2A402 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTDownloadFile;
+			productName = TTDownloadFile;
+			productReference = 2B1028B51EC71A8100E2A402 /* TTDownloadFile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B1028CD1EC71A8100E2A402 /* TTDownloadFileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B1028E51EC71A8100E2A402 /* Build configuration list for PBXNativeTarget "TTDownloadFileTests" */;
+			buildPhases = (
+				2B1028CA1EC71A8100E2A402 /* Sources */,
+				2B1028CB1EC71A8100E2A402 /* Frameworks */,
+				2B1028CC1EC71A8100E2A402 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B1028D01EC71A8100E2A402 /* PBXTargetDependency */,
+			);
+			name = TTDownloadFileTests;
+			productName = TTDownloadFileTests;
+			productReference = 2B1028CE1EC71A8100E2A402 /* TTDownloadFileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B1028D81EC71A8100E2A402 /* TTDownloadFileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B1028E81EC71A8100E2A402 /* Build configuration list for PBXNativeTarget "TTDownloadFileUITests" */;
+			buildPhases = (
+				2B1028D51EC71A8100E2A402 /* Sources */,
+				2B1028D61EC71A8100E2A402 /* Frameworks */,
+				2B1028D71EC71A8100E2A402 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B1028DB1EC71A8100E2A402 /* PBXTargetDependency */,
+			);
+			name = TTDownloadFileUITests;
+			productName = TTDownloadFileUITests;
+			productReference = 2B1028D91EC71A8100E2A402 /* TTDownloadFileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B1028AD1EC71A8100E2A402 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = sumshile;
+				TargetAttributes = {
+					2B1028B41EC71A8100E2A402 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					2B1028CD1EC71A8100E2A402 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2B1028B41EC71A8100E2A402;
+					};
+					2B1028D81EC71A8100E2A402 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2B1028B41EC71A8100E2A402;
+					};
+				};
+			};
+			buildConfigurationList = 2B1028B01EC71A8100E2A402 /* Build configuration list for PBXProject "TTDownloadFile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B1028AC1EC71A8100E2A402;
+			productRefGroup = 2B1028B61EC71A8100E2A402 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B1028B41EC71A8100E2A402 /* TTDownloadFile */,
+				2B1028CD1EC71A8100E2A402 /* TTDownloadFileTests */,
+				2B1028D81EC71A8100E2A402 /* TTDownloadFileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B1028B31EC71A8100E2A402 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B1028C81EC71A8100E2A402 /* LaunchScreen.storyboard in Resources */,
+				2B1028C51EC71A8100E2A402 /* Assets.xcassets in Resources */,
+				2B1028C31EC71A8100E2A402 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B1028CC1EC71A8100E2A402 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B1028D71EC71A8100E2A402 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B1028B11EC71A8100E2A402 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B1028C01EC71A8100E2A402 /* ViewController.m in Sources */,
+				2B1028BD1EC71A8100E2A402 /* AppDelegate.m in Sources */,
+				2B1028F41EC71F4B00E2A402 /* TTDLBookCell.m in Sources */,
+				2B1028EE1EC71AD200E2A402 /* NSString+path.m in Sources */,
+				2B1028F11EC71E0100E2A402 /* TTBookModel.m in Sources */,
+				2B1028BA1EC71A8100E2A402 /* main.m in Sources */,
+				2B1028F71EC725B300E2A402 /* TTDownloadManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B1028CA1EC71A8100E2A402 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B1028D31EC71A8100E2A402 /* TTDownloadFileTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B1028D51EC71A8100E2A402 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B1028DE1EC71A8100E2A402 /* TTDownloadFileUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B1028D01EC71A8100E2A402 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B1028B41EC71A8100E2A402 /* TTDownloadFile */;
+			targetProxy = 2B1028CF1EC71A8100E2A402 /* PBXContainerItemProxy */;
+		};
+		2B1028DB1EC71A8100E2A402 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B1028B41EC71A8100E2A402 /* TTDownloadFile */;
+			targetProxy = 2B1028DA1EC71A8100E2A402 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B1028C11EC71A8100E2A402 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B1028C21EC71A8100E2A402 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B1028C61EC71A8100E2A402 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B1028C71EC71A8100E2A402 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B1028E01EC71A8100E2A402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2B1028E11EC71A8100E2A402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B1028E31EC71A8100E2A402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TTDownloadFile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.jkt.TTDownloadFile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2B1028E41EC71A8100E2A402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TTDownloadFile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.jkt.TTDownloadFile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2B1028E61EC71A8100E2A402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TTDownloadFileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.jkt.TTDownloadFileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTDownloadFile.app/TTDownloadFile";
+			};
+			name = Debug;
+		};
+		2B1028E71EC71A8100E2A402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TTDownloadFileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.jkt.TTDownloadFileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTDownloadFile.app/TTDownloadFile";
+			};
+			name = Release;
+		};
+		2B1028E91EC71A8100E2A402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TTDownloadFileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.jkt.TTDownloadFileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TTDownloadFile;
+			};
+			name = Debug;
+		};
+		2B1028EA1EC71A8100E2A402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TTDownloadFileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.jkt.TTDownloadFileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TTDownloadFile;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B1028B01EC71A8100E2A402 /* Build configuration list for PBXProject "TTDownloadFile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B1028E01EC71A8100E2A402 /* Debug */,
+				2B1028E11EC71A8100E2A402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B1028E21EC71A8100E2A402 /* Build configuration list for PBXNativeTarget "TTDownloadFile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B1028E31EC71A8100E2A402 /* Debug */,
+				2B1028E41EC71A8100E2A402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2B1028E51EC71A8100E2A402 /* Build configuration list for PBXNativeTarget "TTDownloadFileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B1028E61EC71A8100E2A402 /* Debug */,
+				2B1028E71EC71A8100E2A402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2B1028E81EC71A8100E2A402 /* Build configuration list for PBXNativeTarget "TTDownloadFileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B1028E91EC71A8100E2A402 /* Debug */,
+				2B1028EA1EC71A8100E2A402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B1028AD1EC71A8100E2A402 /* Project object */;
+}
