@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4256a9c1-9f05-4119-96b3-e49fdb0f11a1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/WYNews/Assets.xcassets/1.imageset/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/WYNews/Assets.xcassets/AppIcon.appiconset/AppIcon29x29@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/WYNews/Assets.xcassets/AppIcon.appiconset/AppIcon29x29@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/WYNews/Assets.xcassets/AppIcon.appiconset/AppIcon40x40@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/WYNews/Assets.xcassets/AppIcon.appiconset/AppIcon40x40@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/WYNews/Assets.xcassets/AppIcon.appiconset/AppIcon60x60@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/WYNews/Assets.xcassets/AppIcon.appiconset/AppIcon60x60@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/WYNews.xcodeproj/project.xcworkspace/xcuserdata/sumshile.xcuserdatad/UserInterfaceState.xcuserstate" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/afnworking.xcodeproj/project.xcworkspace/xcuserdata/sumshile.xcuserdatad/UserInterfaceState.xcuserstate" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/afnworking.xcworkspace/xcuserdata/sumshile.xcuserdatad/UserInterfaceState.xcuserstate" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/WYNews/Assets.xcassets/about_hd.imageset/about_hd@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/AFNetworking/UIKit+AFNetworking/AFAutoPurgingImageCache.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Private/AFNetworking/AFAutoPurgingImageCache.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Public/AFNetworking/AFAutoPurgingImageCache.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/AFNetworking/UIKit+AFNetworking/AFAutoPurgingImageCache.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Headers/Private/AFNetworking/AFAutoPurgingImageCache.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Headers/Public/AFNetworking/AFAutoPurgingImageCache.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/AFNetworking/UIKit+AFNetworking/AFAutoPurgingImageCache.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/AFNetworking/UIKit+AFNetworking/AFAutoPurgingImageCache.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Private/AFNetworking/AFHTTPSessionManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Public/AFNetworking/AFHTTPSessionManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Headers/Private/AFNetworking/AFHTTPSessionManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Headers/Public/AFNetworking/AFHTTPSessionManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/AFNetworking/UIKit+AFNetworking/AFImageDownloader.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Private/AFNetworking/AFImageDownloader.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Public/AFNetworking/AFImageDownloader.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/AFNetworking/UIKit+AFNetworking/AFImageDownloader.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Headers/Private/AFNetworking/AFImageDownloader.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Headers/Public/AFNetworking/AFImageDownloader.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/AFNetworking/UIKit+AFNetworking/AFImageDownloader.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/AFNetworking/UIKit+AFNetworking/AFImageDownloader.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Private/AFNetworking/AFNetworkActivityIndicatorManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Public/AFNetworking/AFNetworkActivityIndicatorManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Headers/Private/AFNetworking/AFNetworkActivityIndicatorManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Headers/Public/AFNetworking/AFNetworkActivityIndicatorManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Private/AFNetworking/AFNetworkReachabilityManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Public/AFNetworking/AFNetworkReachabilityManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Headers/Private/AFNetworking/AFNetworkReachabilityManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Headers/Public/AFNetworking/AFNetworkReachabilityManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Target Support Files/AFNetworking/AFNetworking-dummy.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Target Support Files/AFNetworking/AFNetworking-dummy.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Target Support Files/AFNetworking/AFNetworking-prefix.pch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Target Support Files/AFNetworking/AFNetworking-prefix.pch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/AFNetworking/AFNetworking/AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Private/AFNetworking/AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Public/AFNetworking/AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/AFNetworking/AFNetworking/AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Headers/Private/AFNetworking/AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Headers/Public/AFNetworking/AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Target Support Files/AFNetworking/AFNetworking.xcconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Target Support Files/AFNetworking/AFNetworking.xcconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Pods.xcodeproj/xcuserdata/sumshile.xcuserdatad/xcschemes/AFNetworking.xcscheme" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Pods.xcodeproj/xcuserdata/sumshile.xcuserdatad/xcschemes/AFNetworking.xcscheme" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Private/AFNetworking/AFSecurityPolicy.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Public/AFNetworking/AFSecurityPolicy.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Headers/Private/AFNetworking/AFSecurityPolicy.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Headers/Public/AFNetworking/AFSecurityPolicy.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Private/AFNetworking/AFURLRequestSerialization.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Public/AFNetworking/AFURLRequestSerialization.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Headers/Private/AFNetworking/AFURLRequestSerialization.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Headers/Public/AFNetworking/AFURLRequestSerialization.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Private/AFNetworking/AFURLResponseSerialization.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Public/AFNetworking/AFURLResponseSerialization.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Headers/Private/AFNetworking/AFURLResponseSerialization.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Headers/Public/AFNetworking/AFURLResponseSerialization.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/AFNetworking/AFNetworking/AFURLSessionManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Private/AFNetworking/AFURLSessionManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Public/AFNetworking/AFURLSessionManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/AFNetworking/AFNetworking/AFURLSessionManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Headers/Private/AFNetworking/AFURLSessionManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Headers/Public/AFNetworking/AFURLSessionManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/AFNetworking/AFNetworking/AFURLSessionManager.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/AFNetworking/AFNetworking/AFURLSessionManager.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/WYNews/AppDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/afnworking/AppDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/WYNews/AppDelegate.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/afnworking/AppDelegate.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/WYNews/News/View/BaseCell.xib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/WYNews/News/View/BigCell.xib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/WYNews/Assets.xcassets/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/WYNews/Assets.xcassets/1.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/WYNews/Assets.xcassets/AppIcon.appiconset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/WYNews/Assets.xcassets/about_hd.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/afnworking/Assets.xcassets/AppIcon.appiconset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/WYNews/News/View/ImagesCell.xib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/WYNews/Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/WYNewsTests/Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/WYNewsUITests/Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/afnworking/Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/afnworkingTests/Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/afnworkingUITests/Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/AFNetworking/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/SDWebImage/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/YYModel/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/AFNetworking/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/WYNews/Base.lproj/LaunchScreen.storyboard" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/afnworking/Base.lproj/LaunchScreen.storyboard" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/WYNews/Base.lproj/Main.storyboard" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/afnworking/Base.lproj/Main.storyboard" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Manifest.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Manifest.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Private/SDWebImage/NSData+ImageContentType.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Public/SDWebImage/NSData+ImageContentType.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/SDWebImage/SDWebImage/NSData+ImageContentType.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/SDWebImage/SDWebImage/NSData+ImageContentType.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Private/SDWebImage/NSImage+WebCache.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Public/SDWebImage/NSImage+WebCache.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/SDWebImage/SDWebImage/NSImage+WebCache.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/SDWebImage/SDWebImage/NSImage+WebCache.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Private/YYModel/NSObject+YYModel.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Public/YYModel/NSObject+YYModel.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/YYModel/YYModel/NSObject+YYModel.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/YYModel/YYModel/NSObject+YYModel.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/WYNews/NetworkTool/NetworkManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/WYNews/NetworkTool/NetworkManager.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/WYNews/News/Controller/NewsTableViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/WYNews/News/Controller/NewsTableViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Podfile.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Podfile.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Podfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Podfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Target Support Files/Pods-WYNews/Pods-WYNews-acknowledgements.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Target Support Files/Pods-WYNews/Pods-WYNews-acknowledgements.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Target Support Files/Pods-WYNews/Pods-WYNews-dummy.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Target Support Files/Pods-WYNews/Pods-WYNews-frameworks.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Target Support Files/Pods-WYNews/Pods-WYNews-resources.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Target Support Files/Pods-WYNews/Pods-WYNews.debug.xcconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Target Support Files/Pods-WYNews/Pods-WYNews.release.xcconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Pods.xcodeproj/xcuserdata/sumshile.xcuserdatad/xcschemes/Pods-WYNews.xcscheme" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Target Support Files/Pods-WYNewsTests/Pods-WYNewsTests-acknowledgements.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Target Support Files/Pods-WYNewsTests/Pods-WYNewsTests-acknowledgements.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Target Support Files/Pods-WYNewsTests/Pods-WYNewsTests-dummy.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Target Support Files/Pods-WYNewsTests/Pods-WYNewsTests-frameworks.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Target Support Files/Pods-WYNewsTests/Pods-WYNewsTests-resources.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Target Support Files/Pods-WYNewsTests/Pods-WYNewsTests.debug.xcconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Target Support Files/Pods-WYNewsTests/Pods-WYNewsTests.release.xcconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Pods.xcodeproj/xcuserdata/sumshile.xcuserdatad/xcschemes/Pods-WYNewsTests.xcscheme" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Target Support Files/Pods-WYNewsUITests/Pods-WYNewsUITests-acknowledgements.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Target Support Files/Pods-WYNewsUITests/Pods-WYNewsUITests-acknowledgements.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Target Support Files/Pods-WYNewsUITests/Pods-WYNewsUITests-dummy.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Target Support Files/Pods-WYNewsUITests/Pods-WYNewsUITests-frameworks.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Target Support Files/Pods-WYNewsUITests/Pods-WYNewsUITests-resources.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Target Support Files/Pods-WYNewsUITests/Pods-WYNewsUITests.debug.xcconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Target Support Files/Pods-WYNewsUITests/Pods-WYNewsUITests.release.xcconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Pods.xcodeproj/xcuserdata/sumshile.xcuserdatad/xcschemes/Pods-WYNewsUITests.xcscheme" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Target Support Files/Pods-afnworking/Pods-afnworking-acknowledgements.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Target Support Files/Pods-afnworking/Pods-afnworking-acknowledgements.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Target Support Files/Pods-afnworking/Pods-afnworking-dummy.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Target Support Files/Pods-afnworking/Pods-afnworking-frameworks.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Target Support Files/Pods-afnworking/Pods-afnworking-resources.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Target Support Files/Pods-afnworking/Pods-afnworking.debug.xcconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Target Support Files/Pods-afnworking/Pods-afnworking.release.xcconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Pods.xcodeproj/xcuserdata/sumshile.xcuserdatad/xcschemes/Pods-afnworking.xcscheme" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Target Support Files/Pods-afnworkingTests/Pods-afnworkingTests-acknowledgements.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Target Support Files/Pods-afnworkingTests/Pods-afnworkingTests-acknowledgements.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Target Support Files/Pods-afnworkingTests/Pods-afnworkingTests-dummy.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Target Support Files/Pods-afnworkingTests/Pods-afnworkingTests-frameworks.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Target Support Files/Pods-afnworkingTests/Pods-afnworkingTests-resources.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Target Support Files/Pods-afnworkingTests/Pods-afnworkingTests.debug.xcconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Target Support Files/Pods-afnworkingTests/Pods-afnworkingTests.release.xcconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Pods.xcodeproj/xcuserdata/sumshile.xcuserdatad/xcschemes/Pods-afnworkingTests.xcscheme" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Target Support Files/Pods-afnworkingUITests/Pods-afnworkingUITests-acknowledgements.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Target Support Files/Pods-afnworkingUITests/Pods-afnworkingUITests-acknowledgements.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Target Support Files/Pods-afnworkingUITests/Pods-afnworkingUITests-dummy.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Target Support Files/Pods-afnworkingUITests/Pods-afnworkingUITests-frameworks.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Target Support Files/Pods-afnworkingUITests/Pods-afnworkingUITests-resources.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Target Support Files/Pods-afnworkingUITests/Pods-afnworkingUITests.debug.xcconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Target Support Files/Pods-afnworkingUITests/Pods-afnworkingUITests.release.xcconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Pods.xcodeproj/xcuserdata/sumshile.xcuserdatad/xcschemes/Pods-afnworkingUITests.xcscheme" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/AFNetworking/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/SDWebImage/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/YYModel/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/AFNetworking/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Private/SDWebImage/SDImageCache.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Public/SDWebImage/SDImageCache.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/SDWebImage/SDWebImage/SDImageCache.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/SDWebImage/SDWebImage/SDImageCache.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Private/SDWebImage/SDImageCacheConfig.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Public/SDWebImage/SDImageCacheConfig.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/SDWebImage/SDWebImage/SDImageCacheConfig.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/SDWebImage/SDWebImage/SDImageCacheConfig.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Target Support Files/SDWebImage/SDWebImage-dummy.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Target Support Files/SDWebImage/SDWebImage-prefix.pch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Target Support Files/SDWebImage/SDWebImage.xcconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Pods.xcodeproj/xcuserdata/sumshile.xcuserdatad/xcschemes/SDWebImage.xcscheme" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Private/SDWebImage/SDWebImageCompat.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Public/SDWebImage/SDWebImageCompat.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/SDWebImage/SDWebImage/SDWebImageCompat.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/SDWebImage/SDWebImage/SDWebImageCompat.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Private/SDWebImage/SDWebImageDecoder.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Public/SDWebImage/SDWebImageDecoder.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/SDWebImage/SDWebImage/SDWebImageDecoder.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/SDWebImage/SDWebImage/SDWebImageDecoder.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Private/SDWebImage/SDWebImageDownloader.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Public/SDWebImage/SDWebImageDownloader.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/SDWebImage/SDWebImage/SDWebImageDownloader.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/SDWebImage/SDWebImage/SDWebImageDownloader.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Private/SDWebImage/SDWebImageDownloaderOperation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Public/SDWebImage/SDWebImageDownloaderOperation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/SDWebImage/SDWebImage/SDWebImageDownloaderOperation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/SDWebImage/SDWebImage/SDWebImageDownloaderOperation.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Private/SDWebImage/SDWebImageManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Public/SDWebImage/SDWebImageManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/SDWebImage/SDWebImage/SDWebImageManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/SDWebImage/SDWebImage/SDWebImageManager.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Private/SDWebImage/SDWebImageOperation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Public/SDWebImage/SDWebImageOperation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/SDWebImage/SDWebImage/SDWebImageOperation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Private/SDWebImage/SDWebImagePrefetcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Public/SDWebImage/SDWebImagePrefetcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/SDWebImage/SDWebImage/SDWebImagePrefetcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/SDWebImage/SDWebImage/SDWebImagePrefetcher.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Private/AFNetworking/UIActivityIndicatorView+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Public/AFNetworking/UIActivityIndicatorView+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Headers/Private/AFNetworking/UIActivityIndicatorView+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Headers/Public/AFNetworking/UIActivityIndicatorView+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Private/AFNetworking/UIButton+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Public/AFNetworking/UIButton+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Headers/Private/AFNetworking/UIButton+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Headers/Public/AFNetworking/UIButton+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Private/SDWebImage/UIButton+WebCache.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Public/SDWebImage/UIButton+WebCache.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/SDWebImage/SDWebImage/UIButton+WebCache.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/SDWebImage/SDWebImage/UIButton+WebCache.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/AFNetworking/UIKit+AFNetworking/UIImage+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Private/AFNetworking/UIImage+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Public/AFNetworking/UIImage+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/AFNetworking/UIKit+AFNetworking/UIImage+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Headers/Private/AFNetworking/UIImage+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Headers/Public/AFNetworking/UIImage+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Private/SDWebImage/UIImage+GIF.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Public/SDWebImage/UIImage+GIF.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/SDWebImage/SDWebImage/UIImage+GIF.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/SDWebImage/SDWebImage/UIImage+GIF.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Private/SDWebImage/UIImage+MultiFormat.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Public/SDWebImage/UIImage+MultiFormat.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/SDWebImage/SDWebImage/UIImage+MultiFormat.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/SDWebImage/SDWebImage/UIImage+MultiFormat.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Private/AFNetworking/UIImageView+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Public/AFNetworking/UIImageView+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Headers/Private/AFNetworking/UIImageView+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Headers/Public/AFNetworking/UIImageView+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Private/SDWebImage/UIImageView+HighlightedWebCache.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Public/SDWebImage/UIImageView+HighlightedWebCache.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/SDWebImage/SDWebImage/UIImageView+HighlightedWebCache.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/SDWebImage/SDWebImage/UIImageView+HighlightedWebCache.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Private/SDWebImage/UIImageView+WebCache.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Public/SDWebImage/UIImageView+WebCache.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/SDWebImage/SDWebImage/UIImageView+WebCache.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/SDWebImage/SDWebImage/UIImageView+WebCache.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/AFNetworking/UIKit+AFNetworking/UIKit+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Private/AFNetworking/UIKit+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Public/AFNetworking/UIKit+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/AFNetworking/UIKit+AFNetworking/UIKit+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Headers/Private/AFNetworking/UIKit+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Headers/Public/AFNetworking/UIKit+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Private/AFNetworking/UIProgressView+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Public/AFNetworking/UIProgressView+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Headers/Private/AFNetworking/UIProgressView+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Headers/Public/AFNetworking/UIProgressView+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Private/AFNetworking/UIRefreshControl+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Public/AFNetworking/UIRefreshControl+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Headers/Private/AFNetworking/UIRefreshControl+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Headers/Public/AFNetworking/UIRefreshControl+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Private/SDWebImage/UIView+WebCache.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Public/SDWebImage/UIView+WebCache.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/SDWebImage/SDWebImage/UIView+WebCache.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/SDWebImage/SDWebImage/UIView+WebCache.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Private/SDWebImage/UIView+WebCacheOperation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Public/SDWebImage/UIView+WebCacheOperation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/SDWebImage/SDWebImage/UIView+WebCacheOperation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/SDWebImage/SDWebImage/UIView+WebCacheOperation.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Private/AFNetworking/UIWebView+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Public/AFNetworking/UIWebView+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Headers/Private/AFNetworking/UIWebView+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Headers/Public/AFNetworking/UIWebView+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/afnworking/ViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/afnworking/ViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/WYNews/TopLabel/Model/WYLabelModel.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/WYNews/TopLabel/Model/WYLabelModel.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/WYNews.xcodeproj/xcuserdata/sumshile.xcuserdatad/xcschemes/WYNews.xcscheme" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/WYNewsTests/WYNewsTests.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/WYNewsUITests/WYNewsUITests.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/WYNews/Home/Controller/WYTTHomeViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/WYNews/Home/Controller/WYTTHomeViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/WYNews/Home/View/WYTTNewsCell.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/WYNews/Home/View/WYTTNewsCell.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/WYNews/News/Model/WYTTNewsModel.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/WYNews/News/Model/WYTTNewsModel.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/WYNews/News/View/WYTTNewsTableCell.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/WYNews/News/View/WYTTNewsTableCell.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/WYNews/TopLabel/View/WYTopLabel.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/WYNews/TopLabel/View/WYTopLabel.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Private/YYModel/YYClassInfo.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Public/YYModel/YYClassInfo.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/YYModel/YYModel/YYClassInfo.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/YYModel/YYModel/YYClassInfo.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Target Support Files/YYModel/YYModel-dummy.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Target Support Files/YYModel/YYModel-prefix.pch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Private/YYModel/YYModel.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Headers/Public/YYModel/YYModel.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/YYModel/YYModel/YYModel.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Target Support Files/YYModel/YYModel.xcconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Pods.xcodeproj/xcuserdata/sumshile.xcuserdatad/xcschemes/YYModel.xcscheme" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/afnworking.xcodeproj/xcuserdata/sumshile.xcuserdatad/xcschemes/afnworking.xcscheme" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/afnworkingTests/afnworkingTests.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/afnworkingUITests/afnworkingUITests.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/WYNews.xcodeproj/project.xcworkspace/contents.xcworkspacedata" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/WYNews.xcworkspace/contents.xcworkspacedata" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/afnworking.xcodeproj/project.xcworkspace/contents.xcworkspacedata" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/afnworking.xcworkspace/contents.xcworkspacedata" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/WYNews/main.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/afnworking/main.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Pods.xcodeproj/project.pbxproj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/WYNews.xcodeproj/project.pbxproj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Pods.xcodeproj/project.pbxproj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/afnworking.xcodeproj/project.pbxproj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/WYNews/topic_news.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/Pods/Pods.xcodeproj/xcuserdata/sumshile.xcuserdatad/xcschemes/xcschememanagement.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WYNews/WYNews.xcodeproj/xcuserdata/sumshile.xcuserdatad/xcschemes/xcschememanagement.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/Pods/Pods.xcodeproj/xcuserdata/sumshile.xcuserdatad/xcschemes/xcschememanagement.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/afnworking/afnworking.xcodeproj/xcuserdata/sumshile.xcuserdatad/xcschemes/xcschememanagement.plist" />
+    </list>
+    <ignored path="SaveFile01.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="SaveFile01" />
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="true" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="20" />
+    <option name="y" value="23" />
+    <option name="width" value="1400" />
+    <option name="height" value="797" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SaveFile01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="name" value="Dart" />
+      <option name="saveOutputToFile" value="false" />
+      <option name="showConsoleOnStdErr" value="false" />
+      <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4256a9c1-9f05-4119-96b3-e49fdb0f11a1" name="Default" comment="" />
+      <created>1494941013337</created>
+      <updated>1494941013337</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="20" y="23" width="1400" height="797" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+</project>
+

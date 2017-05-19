@@ -1,0 +1,876 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B0F99BF1ECB26D5005E3679 /* WYTTNewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0F99BE1ECB26D5005E3679 /* WYTTNewsModel.m */; };
+		2B0F99C21ECB2806005E3679 /* WYTTNewsTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0F99C11ECB2806005E3679 /* WYTTNewsTableCell.m */; };
+		2B0F99C61ECB298C005E3679 /* BaseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B0F99C31ECB298C005E3679 /* BaseCell.xib */; };
+		2B0F99C71ECB298C005E3679 /* BigCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B0F99C41ECB298C005E3679 /* BigCell.xib */; };
+		2B0F99C81ECB298C005E3679 /* ImagesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B0F99C51ECB298C005E3679 /* ImagesCell.xib */; };
+		2B7B91D27A76D451C6F0E610 /* libPods-WYNewsUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FD655A486CDD9648984A11 /* libPods-WYNewsUITests.a */; };
+		2BA794741EC84F1200B6CF98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA794731EC84F1200B6CF98 /* main.m */; };
+		2BA794771EC84F1200B6CF98 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA794761EC84F1200B6CF98 /* AppDelegate.m */; };
+		2BA7947D1EC84F1200B6CF98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BA7947B1EC84F1200B6CF98 /* Main.storyboard */; };
+		2BA7947F1EC84F1200B6CF98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BA7947E1EC84F1200B6CF98 /* Assets.xcassets */; };
+		2BA794821EC84F1200B6CF98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BA794801EC84F1200B6CF98 /* LaunchScreen.storyboard */; };
+		2BA7948D1EC84F1200B6CF98 /* WYNewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA7948C1EC84F1200B6CF98 /* WYNewsTests.m */; };
+		2BA794981EC84F1200B6CF98 /* WYNewsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA794971EC84F1200B6CF98 /* WYNewsUITests.m */; };
+		2BA794AA1EC851C300B6CF98 /* WYTTHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA794A91EC851C300B6CF98 /* WYTTHomeViewController.m */; };
+		2BBE6B611EC87F8F00F5B406 /* WYLabelModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBE6B601EC87F8F00F5B406 /* WYLabelModel.m */; };
+		2BBE6B661EC8839500F5B406 /* WYTopLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBE6B651EC8839500F5B406 /* WYTopLabel.m */; };
+		2BBE6B691EC8850C00F5B406 /* UIView+WP.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBE6B681EC8850C00F5B406 /* UIView+WP.m */; };
+		2BBE6B6C1EC8891A00F5B406 /* WYTTNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBE6B6B1EC8891A00F5B406 /* WYTTNewsCell.m */; };
+		2BD4CF5A1ECAD27200A22552 /* topic_news.json in Resources */ = {isa = PBXBuildFile; fileRef = 2BD4CF591ECAD27200A22552 /* topic_news.json */; };
+		2BD4CF641ECAD32B00A22552 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD4CF5D1ECAD32B00A22552 /* NetworkManager.m */; };
+		2BD4CF651ECAD32B00A22552 /* NewsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD4CF611ECAD32B00A22552 /* NewsTableViewController.m */; };
+		4ED07C7FD1495E18E029F9D4 /* libPods-WYNews.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 386F23AF4CB15D4912B6480E /* libPods-WYNews.a */; };
+		A91CC8E3538A51E0FEED1004 /* libPods-WYNewsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F24D3FDABA4CA1ABED5EC242 /* libPods-WYNewsTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BA794891EC84F1200B6CF98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BA794671EC84F1200B6CF98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BA7946E1EC84F1200B6CF98;
+			remoteInfo = WYNews;
+		};
+		2BA794941EC84F1200B6CF98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BA794671EC84F1200B6CF98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BA7946E1EC84F1200B6CF98;
+			remoteInfo = WYNews;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B0F99BD1ECB26D5005E3679 /* WYTTNewsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYTTNewsModel.h; sourceTree = "<group>"; };
+		2B0F99BE1ECB26D5005E3679 /* WYTTNewsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYTTNewsModel.m; sourceTree = "<group>"; };
+		2B0F99C01ECB2806005E3679 /* WYTTNewsTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYTTNewsTableCell.h; sourceTree = "<group>"; };
+		2B0F99C11ECB2806005E3679 /* WYTTNewsTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYTTNewsTableCell.m; sourceTree = "<group>"; };
+		2B0F99C31ECB298C005E3679 /* BaseCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseCell.xib; sourceTree = "<group>"; };
+		2B0F99C41ECB298C005E3679 /* BigCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BigCell.xib; sourceTree = "<group>"; };
+		2B0F99C51ECB298C005E3679 /* ImagesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImagesCell.xib; sourceTree = "<group>"; };
+		2BA7946F1EC84F1200B6CF98 /* WYNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BA794731EC84F1200B6CF98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BA794751EC84F1200B6CF98 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2BA794761EC84F1200B6CF98 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2BA7947C1EC84F1200B6CF98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2BA7947E1EC84F1200B6CF98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BA794811EC84F1200B6CF98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2BA794831EC84F1200B6CF98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BA794881EC84F1200B6CF98 /* WYNewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYNewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BA7948C1EC84F1200B6CF98 /* WYNewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYNewsTests.m; sourceTree = "<group>"; };
+		2BA7948E1EC84F1200B6CF98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BA794931EC84F1200B6CF98 /* WYNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BA794971EC84F1200B6CF98 /* WYNewsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYNewsUITests.m; sourceTree = "<group>"; };
+		2BA794991EC84F1200B6CF98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BA794A81EC851C300B6CF98 /* WYTTHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYTTHomeViewController.h; sourceTree = "<group>"; };
+		2BA794A91EC851C300B6CF98 /* WYTTHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYTTHomeViewController.m; sourceTree = "<group>"; };
+		2BBE6B5F1EC87F8F00F5B406 /* WYLabelModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYLabelModel.h; sourceTree = "<group>"; };
+		2BBE6B601EC87F8F00F5B406 /* WYLabelModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYLabelModel.m; sourceTree = "<group>"; };
+		2BBE6B641EC8839500F5B406 /* WYTopLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYTopLabel.h; sourceTree = "<group>"; };
+		2BBE6B651EC8839500F5B406 /* WYTopLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYTopLabel.m; sourceTree = "<group>"; };
+		2BBE6B671EC8850C00F5B406 /* UIView+WP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+WP.h"; path = "../../../../Common/Category(分类)/UIView+WP.h"; sourceTree = "<group>"; };
+		2BBE6B681EC8850C00F5B406 /* UIView+WP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+WP.m"; path = "../../../../Common/Category(分类)/UIView+WP.m"; sourceTree = "<group>"; };
+		2BBE6B6A1EC8891A00F5B406 /* WYTTNewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYTTNewsCell.h; sourceTree = "<group>"; };
+		2BBE6B6B1EC8891A00F5B406 /* WYTTNewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYTTNewsCell.m; sourceTree = "<group>"; };
+		2BD4CF591ECAD27200A22552 /* topic_news.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = topic_news.json; sourceTree = "<group>"; };
+		2BD4CF5C1ECAD32B00A22552 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		2BD4CF5D1ECAD32B00A22552 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		2BD4CF601ECAD32B00A22552 /* NewsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsTableViewController.h; sourceTree = "<group>"; };
+		2BD4CF611ECAD32B00A22552 /* NewsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsTableViewController.m; sourceTree = "<group>"; };
+		386F23AF4CB15D4912B6480E /* libPods-WYNews.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WYNews.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C42C7E3D10B55A626E75897 /* Pods-WYNewsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYNewsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WYNewsTests/Pods-WYNewsTests.release.xcconfig"; sourceTree = "<group>"; };
+		749D14936A75DF2C0775A8BD /* Pods-WYNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYNews.release.xcconfig"; path = "Pods/Target Support Files/Pods-WYNews/Pods-WYNews.release.xcconfig"; sourceTree = "<group>"; };
+		8862BEE41252B4B105EE103A /* Pods-WYNewsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYNewsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WYNewsUITests/Pods-WYNewsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		88C136D07BF1C0E3F10AE401 /* Pods-WYNewsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYNewsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WYNewsTests/Pods-WYNewsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8CDE7F7936A4921010EE86AA /* Pods-WYNewsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYNewsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WYNewsUITests/Pods-WYNewsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D1B4F21E807EEEB431E56B2B /* Pods-WYNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYNews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WYNews/Pods-WYNews.debug.xcconfig"; sourceTree = "<group>"; };
+		F24D3FDABA4CA1ABED5EC242 /* libPods-WYNewsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WYNewsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5FD655A486CDD9648984A11 /* libPods-WYNewsUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WYNewsUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BA7946C1EC84F1200B6CF98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ED07C7FD1495E18E029F9D4 /* libPods-WYNews.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BA794851EC84F1200B6CF98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A91CC8E3538A51E0FEED1004 /* libPods-WYNewsTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BA794901EC84F1200B6CF98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B7B91D27A76D451C6F0E610 /* libPods-WYNewsUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03BC07E46C7E38CB7369FA8C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1B4F21E807EEEB431E56B2B /* Pods-WYNews.debug.xcconfig */,
+				749D14936A75DF2C0775A8BD /* Pods-WYNews.release.xcconfig */,
+				88C136D07BF1C0E3F10AE401 /* Pods-WYNewsTests.debug.xcconfig */,
+				4C42C7E3D10B55A626E75897 /* Pods-WYNewsTests.release.xcconfig */,
+				8CDE7F7936A4921010EE86AA /* Pods-WYNewsUITests.debug.xcconfig */,
+				8862BEE41252B4B105EE103A /* Pods-WYNewsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2BA794661EC84F1200B6CF98 = {
+			isa = PBXGroup;
+			children = (
+				2BA794711EC84F1200B6CF98 /* WYNews */,
+				2BA7948B1EC84F1200B6CF98 /* WYNewsTests */,
+				2BA794961EC84F1200B6CF98 /* WYNewsUITests */,
+				2BA794701EC84F1200B6CF98 /* Products */,
+				03BC07E46C7E38CB7369FA8C /* Pods */,
+				4EB35D39B35D22E8BA1A3E8F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2BA794701EC84F1200B6CF98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BA7946F1EC84F1200B6CF98 /* WYNews.app */,
+				2BA794881EC84F1200B6CF98 /* WYNewsTests.xctest */,
+				2BA794931EC84F1200B6CF98 /* WYNewsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BA794711EC84F1200B6CF98 /* WYNews */ = {
+			isa = PBXGroup;
+			children = (
+				2BBE6B671EC8850C00F5B406 /* UIView+WP.h */,
+				2BBE6B681EC8850C00F5B406 /* UIView+WP.m */,
+				2BA794751EC84F1200B6CF98 /* AppDelegate.h */,
+				2BA794761EC84F1200B6CF98 /* AppDelegate.m */,
+				2BA7947B1EC84F1200B6CF98 /* Main.storyboard */,
+				2BD4CF5B1ECAD32B00A22552 /* NetworkTool */,
+				2BD4CF5E1ECAD32B00A22552 /* News */,
+				2BBE6B5C1EC87F5B00F5B406 /* TopLabel */,
+				2BA794A51EC850F000B6CF98 /* Home */,
+				2BA7947E1EC84F1200B6CF98 /* Assets.xcassets */,
+				2BD4CF591ECAD27200A22552 /* topic_news.json */,
+				2BA794801EC84F1200B6CF98 /* LaunchScreen.storyboard */,
+				2BA794831EC84F1200B6CF98 /* Info.plist */,
+				2BA794721EC84F1200B6CF98 /* Supporting Files */,
+			);
+			path = WYNews;
+			sourceTree = "<group>";
+		};
+		2BA794721EC84F1200B6CF98 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BA794731EC84F1200B6CF98 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2BA7948B1EC84F1200B6CF98 /* WYNewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				2BA7948C1EC84F1200B6CF98 /* WYNewsTests.m */,
+				2BA7948E1EC84F1200B6CF98 /* Info.plist */,
+			);
+			path = WYNewsTests;
+			sourceTree = "<group>";
+		};
+		2BA794961EC84F1200B6CF98 /* WYNewsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2BA794971EC84F1200B6CF98 /* WYNewsUITests.m */,
+				2BA794991EC84F1200B6CF98 /* Info.plist */,
+			);
+			path = WYNewsUITests;
+			sourceTree = "<group>";
+		};
+		2BA794A51EC850F000B6CF98 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2BA794A61EC850F000B6CF98 /* Controller */,
+				2BA794A71EC850F000B6CF98 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2BA794A61EC850F000B6CF98 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2BA794A81EC851C300B6CF98 /* WYTTHomeViewController.h */,
+				2BA794A91EC851C300B6CF98 /* WYTTHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2BA794A71EC850F000B6CF98 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2BBE6B6A1EC8891A00F5B406 /* WYTTNewsCell.h */,
+				2BBE6B6B1EC8891A00F5B406 /* WYTTNewsCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2BBE6B5C1EC87F5B00F5B406 /* TopLabel */ = {
+			isa = PBXGroup;
+			children = (
+				2BBE6B5D1EC87F5B00F5B406 /* Model */,
+				2BBE6B5E1EC87F5B00F5B406 /* View */,
+			);
+			path = TopLabel;
+			sourceTree = "<group>";
+		};
+		2BBE6B5D1EC87F5B00F5B406 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2BBE6B5F1EC87F8F00F5B406 /* WYLabelModel.h */,
+				2BBE6B601EC87F8F00F5B406 /* WYLabelModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2BBE6B5E1EC87F5B00F5B406 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2BBE6B641EC8839500F5B406 /* WYTopLabel.h */,
+				2BBE6B651EC8839500F5B406 /* WYTopLabel.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2BD4CF5B1ECAD32B00A22552 /* NetworkTool */ = {
+			isa = PBXGroup;
+			children = (
+				2BD4CF5C1ECAD32B00A22552 /* NetworkManager.h */,
+				2BD4CF5D1ECAD32B00A22552 /* NetworkManager.m */,
+			);
+			path = NetworkTool;
+			sourceTree = "<group>";
+		};
+		2BD4CF5E1ECAD32B00A22552 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				2BD4CF5F1ECAD32B00A22552 /* Controller */,
+				2BD4CF621ECAD32B00A22552 /* Model */,
+				2BD4CF631ECAD32B00A22552 /* View */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		2BD4CF5F1ECAD32B00A22552 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2BD4CF601ECAD32B00A22552 /* NewsTableViewController.h */,
+				2BD4CF611ECAD32B00A22552 /* NewsTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2BD4CF621ECAD32B00A22552 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2B0F99BD1ECB26D5005E3679 /* WYTTNewsModel.h */,
+				2B0F99BE1ECB26D5005E3679 /* WYTTNewsModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2BD4CF631ECAD32B00A22552 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2B0F99C01ECB2806005E3679 /* WYTTNewsTableCell.h */,
+				2B0F99C11ECB2806005E3679 /* WYTTNewsTableCell.m */,
+				2B0F99C31ECB298C005E3679 /* BaseCell.xib */,
+				2B0F99C41ECB298C005E3679 /* BigCell.xib */,
+				2B0F99C51ECB298C005E3679 /* ImagesCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4EB35D39B35D22E8BA1A3E8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				386F23AF4CB15D4912B6480E /* libPods-WYNews.a */,
+				F24D3FDABA4CA1ABED5EC242 /* libPods-WYNewsTests.a */,
+				F5FD655A486CDD9648984A11 /* libPods-WYNewsUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BA7946E1EC84F1200B6CF98 /* WYNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BA7949C1EC84F1200B6CF98 /* Build configuration list for PBXNativeTarget "WYNews" */;
+			buildPhases = (
+				583B696BD9B2D86EBF8EDC2A /* [CP] Check Pods Manifest.lock */,
+				2BA7946B1EC84F1200B6CF98 /* Sources */,
+				2BA7946C1EC84F1200B6CF98 /* Frameworks */,
+				2BA7946D1EC84F1200B6CF98 /* Resources */,
+				69DE8845A2F23836B90B1C9D /* [CP] Embed Pods Frameworks */,
+				3933680D400909388E06A6DC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WYNews;
+			productName = WYNews;
+			productReference = 2BA7946F1EC84F1200B6CF98 /* WYNews.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BA794871EC84F1200B6CF98 /* WYNewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BA7949F1EC84F1200B6CF98 /* Build configuration list for PBXNativeTarget "WYNewsTests" */;
+			buildPhases = (
+				39FF0DEAC06DFEFFAC1F0501 /* [CP] Check Pods Manifest.lock */,
+				2BA794841EC84F1200B6CF98 /* Sources */,
+				2BA794851EC84F1200B6CF98 /* Frameworks */,
+				2BA794861EC84F1200B6CF98 /* Resources */,
+				D18192E26BEBB94415434E35 /* [CP] Embed Pods Frameworks */,
+				F21C808F4D00D9D50D5F4539 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BA7948A1EC84F1200B6CF98 /* PBXTargetDependency */,
+			);
+			name = WYNewsTests;
+			productName = WYNewsTests;
+			productReference = 2BA794881EC84F1200B6CF98 /* WYNewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2BA794921EC84F1200B6CF98 /* WYNewsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BA794A21EC84F1200B6CF98 /* Build configuration list for PBXNativeTarget "WYNewsUITests" */;
+			buildPhases = (
+				35719E9C71123530F2D5D550 /* [CP] Check Pods Manifest.lock */,
+				2BA7948F1EC84F1200B6CF98 /* Sources */,
+				2BA794901EC84F1200B6CF98 /* Frameworks */,
+				2BA794911EC84F1200B6CF98 /* Resources */,
+				416FDB5DF5BF69E1605BCA29 /* [CP] Embed Pods Frameworks */,
+				EDB5785332862F7167BB470C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BA794951EC84F1200B6CF98 /* PBXTargetDependency */,
+			);
+			name = WYNewsUITests;
+			productName = WYNewsUITests;
+			productReference = 2BA794931EC84F1200B6CF98 /* WYNewsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BA794671EC84F1200B6CF98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = sumshile;
+				TargetAttributes = {
+					2BA7946E1EC84F1200B6CF98 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					2BA794871EC84F1200B6CF98 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2BA7946E1EC84F1200B6CF98;
+					};
+					2BA794921EC84F1200B6CF98 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2BA7946E1EC84F1200B6CF98;
+					};
+				};
+			};
+			buildConfigurationList = 2BA7946A1EC84F1200B6CF98 /* Build configuration list for PBXProject "WYNews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BA794661EC84F1200B6CF98;
+			productRefGroup = 2BA794701EC84F1200B6CF98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BA7946E1EC84F1200B6CF98 /* WYNews */,
+				2BA794871EC84F1200B6CF98 /* WYNewsTests */,
+				2BA794921EC84F1200B6CF98 /* WYNewsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BA7946D1EC84F1200B6CF98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0F99C81ECB298C005E3679 /* ImagesCell.xib in Resources */,
+				2B0F99C71ECB298C005E3679 /* BigCell.xib in Resources */,
+				2BA794821EC84F1200B6CF98 /* LaunchScreen.storyboard in Resources */,
+				2BA7947F1EC84F1200B6CF98 /* Assets.xcassets in Resources */,
+				2B0F99C61ECB298C005E3679 /* BaseCell.xib in Resources */,
+				2BD4CF5A1ECAD27200A22552 /* topic_news.json in Resources */,
+				2BA7947D1EC84F1200B6CF98 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BA794861EC84F1200B6CF98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BA794911EC84F1200B6CF98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35719E9C71123530F2D5D550 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3933680D400909388E06A6DC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WYNews/Pods-WYNews-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39FF0DEAC06DFEFFAC1F0501 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		416FDB5DF5BF69E1605BCA29 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WYNewsUITests/Pods-WYNewsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		583B696BD9B2D86EBF8EDC2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		69DE8845A2F23836B90B1C9D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WYNews/Pods-WYNews-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D18192E26BEBB94415434E35 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WYNewsTests/Pods-WYNewsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDB5785332862F7167BB470C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WYNewsUITests/Pods-WYNewsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F21C808F4D00D9D50D5F4539 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WYNewsTests/Pods-WYNewsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BA7946B1EC84F1200B6CF98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BD4CF641ECAD32B00A22552 /* NetworkManager.m in Sources */,
+				2BA794771EC84F1200B6CF98 /* AppDelegate.m in Sources */,
+				2BBE6B691EC8850C00F5B406 /* UIView+WP.m in Sources */,
+				2BD4CF651ECAD32B00A22552 /* NewsTableViewController.m in Sources */,
+				2B0F99BF1ECB26D5005E3679 /* WYTTNewsModel.m in Sources */,
+				2BA794741EC84F1200B6CF98 /* main.m in Sources */,
+				2BBE6B611EC87F8F00F5B406 /* WYLabelModel.m in Sources */,
+				2BBE6B661EC8839500F5B406 /* WYTopLabel.m in Sources */,
+				2BA794AA1EC851C300B6CF98 /* WYTTHomeViewController.m in Sources */,
+				2BBE6B6C1EC8891A00F5B406 /* WYTTNewsCell.m in Sources */,
+				2B0F99C21ECB2806005E3679 /* WYTTNewsTableCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BA794841EC84F1200B6CF98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BA7948D1EC84F1200B6CF98 /* WYNewsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BA7948F1EC84F1200B6CF98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BA794981EC84F1200B6CF98 /* WYNewsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BA7948A1EC84F1200B6CF98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BA7946E1EC84F1200B6CF98 /* WYNews */;
+			targetProxy = 2BA794891EC84F1200B6CF98 /* PBXContainerItemProxy */;
+		};
+		2BA794951EC84F1200B6CF98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BA7946E1EC84F1200B6CF98 /* WYNews */;
+			targetProxy = 2BA794941EC84F1200B6CF98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2BA7947B1EC84F1200B6CF98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BA7947C1EC84F1200B6CF98 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2BA794801EC84F1200B6CF98 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BA794811EC84F1200B6CF98 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BA7949A1EC84F1200B6CF98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2BA7949B1EC84F1200B6CF98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BA7949D1EC84F1200B6CF98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1B4F21E807EEEB431E56B2B /* Pods-WYNews.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WYNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.jkt.WYNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2BA7949E1EC84F1200B6CF98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 749D14936A75DF2C0775A8BD /* Pods-WYNews.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WYNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.jkt.WYNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2BA794A01EC84F1200B6CF98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88C136D07BF1C0E3F10AE401 /* Pods-WYNewsTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WYNewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.jkt.WYNewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WYNews.app/WYNews";
+			};
+			name = Debug;
+		};
+		2BA794A11EC84F1200B6CF98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C42C7E3D10B55A626E75897 /* Pods-WYNewsTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WYNewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.jkt.WYNewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WYNews.app/WYNews";
+			};
+			name = Release;
+		};
+		2BA794A31EC84F1200B6CF98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CDE7F7936A4921010EE86AA /* Pods-WYNewsUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = WYNewsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.jkt.WYNewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WYNews;
+			};
+			name = Debug;
+		};
+		2BA794A41EC84F1200B6CF98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8862BEE41252B4B105EE103A /* Pods-WYNewsUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = WYNewsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.jkt.WYNewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WYNews;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BA7946A1EC84F1200B6CF98 /* Build configuration list for PBXProject "WYNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BA7949A1EC84F1200B6CF98 /* Debug */,
+				2BA7949B1EC84F1200B6CF98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BA7949C1EC84F1200B6CF98 /* Build configuration list for PBXNativeTarget "WYNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BA7949D1EC84F1200B6CF98 /* Debug */,
+				2BA7949E1EC84F1200B6CF98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BA7949F1EC84F1200B6CF98 /* Build configuration list for PBXNativeTarget "WYNewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BA794A01EC84F1200B6CF98 /* Debug */,
+				2BA794A11EC84F1200B6CF98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BA794A21EC84F1200B6CF98 /* Build configuration list for PBXNativeTarget "WYNewsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BA794A31EC84F1200B6CF98 /* Debug */,
+				2BA794A41EC84F1200B6CF98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BA794671EC84F1200B6CF98 /* Project object */;
+}
